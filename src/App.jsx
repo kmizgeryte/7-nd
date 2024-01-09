@@ -10,10 +10,12 @@ function App() {
     <>
     <h1>app</h1>
       <BrowserRouter>
-        <Routes>
-          <Route path='/Products.jsx' element={<Products/>}/>
-          <Route path='/Form.jsx' element={<Form/>}/>
-        </Routes>
+      <Routes>
+  <Route path="/Products" element={<Products />} />
+  <Route path="/Form" element={<Form />} />
+</Routes>
+
+          
       </BrowserRouter>
     </>
   )
